@@ -1,34 +1,34 @@
-Initialize engine version: 5.5.2f1 (3829d7f588f3)
+Initialize engine version: 5.5.1f1 (88d00a7498cd)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Microsoft Basic Render Driver (ID=0x8c)
-    Vendor:   Microsoft
-    VRAM:     256 MB
+    Renderer: Intel(R) HD Graphics 5500 (ID=0x1616)
+    Vendor:   Intel
+    VRAM:     2155 MB
+    Driver:   20.19.15.4549
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\zSpace\Desktop\unity5 project\4thmarch\4thMarch_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\zSpace\Desktop\unity5 project\4thmarch\4thMarch_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\zSpace\Desktop\unity5 project\4thmarch\4thMarch_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\zSpace\Desktop\unity5 project\4thmarch\4thMarch_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\zSpace\Desktop\unity5 project\4thmarch\4thMarch_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\zSpace\Desktop\unity5 project\4thmarch\4thMarch_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\zSpace\Desktop\unity5 project\4thmarch\4thMarch_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\zSpace\Desktop\unity5 project\4thmarch\4thMarch_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\zSpace\Desktop\unity5 project\4thmarch\4thMarch_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
-Loading C:\Users\zSpace\Desktop\unity5 project\4thmarch\4thMarch_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-Platform assembly: C:\Users\zSpace\Desktop\unity5 project\4thmarch\4thMarch_Data\Managed\LeapCSharp.NET3.5.dll (this message is harmless)
-Loading C:\Users\zSpace\Desktop\unity5 project\4thmarch\4thMarch_Data\Managed\LeapCSharp.NET3.5.dll into Unity Child Domain
-- Completed reload, in  0.309 seconds
-Platform assembly: C:\Users\zSpace\Desktop\unity5 project\4thmarch\4thMarch_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\zSpace\Desktop\unity5 project\4thmarch\4thMarch_Data\Managed\System.dll (this message is harmless)
-desktop: 1920x1080 64Hz; virtual: 1920x1080 at 0,0
+Platform assembly: W:\Code Repository\Master's Project\4thMarch\4thMarch_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading W:\Code Repository\Master's Project\4thMarch\4thMarch_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: W:\Code Repository\Master's Project\4thMarch\4thMarch_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading W:\Code Repository\Master's Project\4thMarch\4thMarch_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: W:\Code Repository\Master's Project\4thMarch\4thMarch_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading W:\Code Repository\Master's Project\4thMarch\4thMarch_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: W:\Code Repository\Master's Project\4thMarch\4thMarch_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading W:\Code Repository\Master's Project\4thMarch\4thMarch_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: W:\Code Repository\Master's Project\4thMarch\4thMarch_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading W:\Code Repository\Master's Project\4thMarch\4thMarch_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: W:\Code Repository\Master's Project\4thMarch\4thMarch_Data\Managed\LeapCSharp.NET3.5.dll (this message is harmless)
+Loading W:\Code Repository\Master's Project\4thMarch\4thMarch_Data\Managed\LeapCSharp.NET3.5.dll into Unity Child Domain
+- Completed reload, in  0.416 seconds
+Platform assembly: W:\Code Repository\Master's Project\4thMarch\4thMarch_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: W:\Code Repository\Master's Project\4thMarch\4thMarch_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
-XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.555851 ms
+UnloadTime: 8.226346 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 151c -> priority: 1 
+  Thread -> id: 346c -> priority: 1 
 HandPool.ModelsParent needs to reference the parent transform of the hand models.  This transform should be a child of the LMHeadMountedRig transform.
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
