@@ -115,6 +115,14 @@ Transform:
 Transform:
   m_PrefabParentObject: {fileID: 423980, guid: 1a2afe25e45b44f46a8e7714bffe1028, type: 2}
   m_PrefabInternal: {fileID: 717715362}
+--- !u!4 &180558452 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 475620, guid: 1a2afe25e45b44f46a8e7714bffe1028, type: 2}
+  m_PrefabInternal: {fileID: 717715362}
+--- !u!4 &182870619 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 462298, guid: 1a2afe25e45b44f46a8e7714bffe1028, type: 2}
+  m_PrefabInternal: {fileID: 717715362}
 --- !u!4 &206416958 stripped
 Transform:
   m_PrefabParentObject: {fileID: 429628, guid: 1a2afe25e45b44f46a8e7714bffe1028, type: 2}
@@ -122,6 +130,10 @@ Transform:
 --- !u!4 &221386914 stripped
 Transform:
   m_PrefabParentObject: {fileID: 477212, guid: 1a2afe25e45b44f46a8e7714bffe1028, type: 2}
+  m_PrefabInternal: {fileID: 717715362}
+--- !u!4 &237325739 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 411232, guid: 1a2afe25e45b44f46a8e7714bffe1028, type: 2}
   m_PrefabInternal: {fileID: 717715362}
 --- !u!4 &264277252 stripped
 Transform:
@@ -543,11 +555,25 @@ MonoBehaviour:
   m_MovementThreshold: 0.001
   m_InterpolateRotation: 0.5
   m_InterpolateMovement: 0.5
---- !u!95 &642653302 stripped
-Animator:
-  m_PrefabParentObject: {fileID: 9512392, guid: 1a2afe25e45b44f46a8e7714bffe1028,
-    type: 2}
-  m_PrefabInternal: {fileID: 717715362}
+--- !u!114 &642653302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 642653281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1267208747, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Target: {fileID: 1498683056}
+  m_ChildIndex: 20
+  m_SendInterval: 0.1
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_MovementThreshold: 0.001
+  m_InterpolateRotation: 0.5
+  m_InterpolateMovement: 0.5
 --- !u!114 &642653303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -556,17 +582,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 642653281}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1590678366, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Script: {fileID: -1267208747, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Animator: {fileID: 642653302}
-  m_ParameterSendBits: 0
-  param0: 
-  param1: 
-  param2: 
-  param3: 
-  param4: 
-  param5: 
+  m_Target: {fileID: 182870619}
+  m_ChildIndex: 21
+  m_SendInterval: 0.1
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_MovementThreshold: 0.001
+  m_InterpolateRotation: 0.5
+  m_InterpolateMovement: 0.5
 --- !u!114 &642653304
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -578,8 +604,8 @@ MonoBehaviour:
   m_Script: {fileID: -1267208747, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Target: {fileID: 1124704047}
-  m_ChildIndex: 20
+  m_Target: {fileID: 1838716359}
+  m_ChildIndex: 51
   m_SendInterval: 0.1
   m_SyncRotationAxis: 7
   m_RotationSyncCompression: 0
@@ -598,7 +624,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Target: {fileID: 1148474614}
-  m_ChildIndex: 21
+  m_ChildIndex: 22
   m_SendInterval: 0.1
   m_SyncRotationAxis: 7
   m_RotationSyncCompression: 0
@@ -617,7 +643,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Target: {fileID: 221386914}
-  m_ChildIndex: 22
+  m_ChildIndex: 23
   m_SendInterval: 0.1
   m_SyncRotationAxis: 7
   m_RotationSyncCompression: 0
@@ -636,7 +662,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Target: {fileID: 931190352}
-  m_ChildIndex: 23
+  m_ChildIndex: 24
   m_SendInterval: 0.1
   m_SyncRotationAxis: 7
   m_RotationSyncCompression: 0
@@ -655,7 +681,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Target: {fileID: 1641806586}
-  m_ChildIndex: 24
+  m_ChildIndex: 25
   m_SendInterval: 0.1
   m_SyncRotationAxis: 7
   m_RotationSyncCompression: 0
@@ -674,7 +700,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Target: {fileID: 806367209}
-  m_ChildIndex: 25
+  m_ChildIndex: 26
   m_SendInterval: 0.1
   m_SyncRotationAxis: 7
   m_RotationSyncCompression: 0
@@ -693,7 +719,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Target: {fileID: 1611982956}
-  m_ChildIndex: 26
+  m_ChildIndex: 27
   m_SendInterval: 0.1
   m_SyncRotationAxis: 7
   m_RotationSyncCompression: 0
@@ -712,7 +738,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Target: {fileID: 1943473814}
-  m_ChildIndex: 27
+  m_ChildIndex: 28
   m_SendInterval: 0.1
   m_SyncRotationAxis: 7
   m_RotationSyncCompression: 0
@@ -731,7 +757,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Target: {fileID: 1372588363}
-  m_ChildIndex: 28
+  m_ChildIndex: 29
   m_SendInterval: 0.1
   m_SyncRotationAxis: 7
   m_RotationSyncCompression: 0
@@ -750,7 +776,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Target: {fileID: 396947359}
-  m_ChildIndex: 29
+  m_ChildIndex: 30
   m_SendInterval: 0.1
   m_SyncRotationAxis: 7
   m_RotationSyncCompression: 0
@@ -769,7 +795,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Target: {fileID: 1024841917}
-  m_ChildIndex: 30
+  m_ChildIndex: 31
   m_SendInterval: 0.1
   m_SyncRotationAxis: 7
   m_RotationSyncCompression: 0
@@ -788,7 +814,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Target: {fileID: 405229662}
-  m_ChildIndex: 31
+  m_ChildIndex: 32
   m_SendInterval: 0.1
   m_SyncRotationAxis: 7
   m_RotationSyncCompression: 0
@@ -807,7 +833,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Target: {fileID: 178885356}
-  m_ChildIndex: 32
+  m_ChildIndex: 33
   m_SendInterval: 0.1
   m_SyncRotationAxis: 7
   m_RotationSyncCompression: 0
@@ -826,7 +852,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Target: {fileID: 1525550904}
-  m_ChildIndex: 33
+  m_ChildIndex: 34
   m_SendInterval: 0.1
   m_SyncRotationAxis: 7
   m_RotationSyncCompression: 0
@@ -845,7 +871,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Target: {fileID: 53789802}
-  m_ChildIndex: 34
+  m_ChildIndex: 35
   m_SendInterval: 0.1
   m_SyncRotationAxis: 7
   m_RotationSyncCompression: 0
@@ -864,7 +890,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Target: {fileID: 1004879677}
-  m_ChildIndex: 35
+  m_ChildIndex: 36
   m_SendInterval: 0.1
   m_SyncRotationAxis: 7
   m_RotationSyncCompression: 0
@@ -883,7 +909,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Target: {fileID: 740262145}
-  m_ChildIndex: 36
+  m_ChildIndex: 37
   m_SendInterval: 0.1
   m_SyncRotationAxis: 7
   m_RotationSyncCompression: 0
@@ -902,7 +928,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Target: {fileID: 2143607009}
-  m_ChildIndex: 37
+  m_ChildIndex: 38
   m_SendInterval: 0.1
   m_SyncRotationAxis: 7
   m_RotationSyncCompression: 0
@@ -921,7 +947,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Target: {fileID: 1002464557}
-  m_ChildIndex: 38
+  m_ChildIndex: 39
   m_SendInterval: 0.1
   m_SyncRotationAxis: 7
   m_RotationSyncCompression: 0
@@ -940,7 +966,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Target: {fileID: 1134202618}
-  m_ChildIndex: 39
+  m_ChildIndex: 40
   m_SendInterval: 0.1
   m_SyncRotationAxis: 7
   m_RotationSyncCompression: 0
@@ -959,7 +985,64 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Target: {fileID: 545160919}
-  m_ChildIndex: 40
+  m_ChildIndex: 41
+  m_SendInterval: 0.1
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_MovementThreshold: 0.001
+  m_InterpolateRotation: 0.5
+  m_InterpolateMovement: 0.5
+--- !u!114 &642653325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 642653281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1267208747, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Target: {fileID: 1595844680}
+  m_ChildIndex: 50
+  m_SendInterval: 0.1
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_MovementThreshold: 0.001
+  m_InterpolateRotation: 0.5
+  m_InterpolateMovement: 0.5
+--- !u!114 &642653326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 642653281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1267208747, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Target: {fileID: 237325739}
+  m_ChildIndex: 49
+  m_SendInterval: 0.1
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_MovementThreshold: 0.001
+  m_InterpolateRotation: 0.5
+  m_InterpolateMovement: 0.5
+--- !u!114 &642653327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 642653281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1267208747, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Target: {fileID: 180558452}
+  m_ChildIndex: 48
   m_SendInterval: 0.1
   m_SyncRotationAxis: 7
   m_RotationSyncCompression: 0
@@ -978,7 +1061,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Target: {fileID: 1108063380}
-  m_ChildIndex: 41
+  m_ChildIndex: 42
   m_SendInterval: 0.1
   m_SyncRotationAxis: 7
   m_RotationSyncCompression: 0
@@ -997,7 +1080,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Target: {fileID: 1268056494}
-  m_ChildIndex: 42
+  m_ChildIndex: 43
   m_SendInterval: 0.1
   m_SyncRotationAxis: 7
   m_RotationSyncCompression: 0
@@ -1016,7 +1099,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Target: {fileID: 84551373}
-  m_ChildIndex: 43
+  m_ChildIndex: 44
   m_SendInterval: 0.1
   m_SyncRotationAxis: 7
   m_RotationSyncCompression: 0
@@ -1035,7 +1118,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Target: {fileID: 140344132}
-  m_ChildIndex: 44
+  m_ChildIndex: 45
   m_SendInterval: 0.1
   m_SyncRotationAxis: 7
   m_RotationSyncCompression: 0
@@ -1054,7 +1137,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Target: {fileID: 401467896}
-  m_ChildIndex: 45
+  m_ChildIndex: 46
   m_SendInterval: 0.1
   m_SyncRotationAxis: 7
   m_RotationSyncCompression: 0
@@ -1073,7 +1156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Target: {fileID: 1955990223}
-  m_ChildIndex: 46
+  m_ChildIndex: 47
   m_SendInterval: 0.1
   m_SyncRotationAxis: 7
   m_RotationSyncCompression: 0
@@ -1436,10 +1519,6 @@ Transform:
 Transform:
   m_PrefabParentObject: {fileID: 463830, guid: 1a2afe25e45b44f46a8e7714bffe1028, type: 2}
   m_PrefabInternal: {fileID: 717715362}
---- !u!4 &1124704047 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 426798, guid: 1a2afe25e45b44f46a8e7714bffe1028, type: 2}
-  m_PrefabInternal: {fileID: 717715362}
 --- !u!4 &1134202618 stripped
 Transform:
   m_PrefabParentObject: {fileID: 411134, guid: 1a2afe25e45b44f46a8e7714bffe1028, type: 2}
@@ -1468,9 +1547,17 @@ Transform:
 Transform:
   m_PrefabParentObject: {fileID: 455850, guid: 1a2afe25e45b44f46a8e7714bffe1028, type: 2}
   m_PrefabInternal: {fileID: 717715362}
+--- !u!4 &1498683056 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 412344, guid: 1a2afe25e45b44f46a8e7714bffe1028, type: 2}
+  m_PrefabInternal: {fileID: 717715362}
 --- !u!4 &1525550904 stripped
 Transform:
   m_PrefabParentObject: {fileID: 499350, guid: 1a2afe25e45b44f46a8e7714bffe1028, type: 2}
+  m_PrefabInternal: {fileID: 717715362}
+--- !u!4 &1595844680 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 419438, guid: 1a2afe25e45b44f46a8e7714bffe1028, type: 2}
   m_PrefabInternal: {fileID: 717715362}
 --- !u!4 &1611982956 stripped
 Transform:
@@ -1479,6 +1566,10 @@ Transform:
 --- !u!4 &1641806586 stripped
 Transform:
   m_PrefabParentObject: {fileID: 495034, guid: 1a2afe25e45b44f46a8e7714bffe1028, type: 2}
+  m_PrefabInternal: {fileID: 717715362}
+--- !u!4 &1838716359 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 425530, guid: 1a2afe25e45b44f46a8e7714bffe1028, type: 2}
   m_PrefabInternal: {fileID: 717715362}
 --- !u!4 &1943473814 stripped
 Transform:
